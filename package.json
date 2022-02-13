@@ -1,0 +1,23 @@
+{
+  "name": "software-design-patterns",
+  "version": "1.0.0",
+  "description": "Software design pattern collection with examples",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "test:cov": "yarn test --coverage --coverageReporters=text"
+  },
+  "keywords": [
+    "design",
+    "pattern"
+  ],
+  "author": "Dmitry Mashkovtsev",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "27.4.0",
+    "jest": "27.4.7",
+    "ts-jest": "27.1.3",
+    "typescript": "4.5.4"
+  }
+}
