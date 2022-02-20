@@ -1,15 +1,21 @@
 import CreatorOne from './CreatorOne';
 import CreatorTwo from './CreatorTwo';
-import { clientCode } from './index';
+import clientCode from './index';
 
-it('ProductOne can sparkle', () => {
-  const result = clientCode(new CreatorOne());
+describe('client code', () => {
+  it('should be a ProductOne can sparkle', () => {
+    expect.assertions(1);
 
-  expect(result).toBe('ProductOne can sparkle');
-})
+    const result = clientCode(new CreatorOne());
 
-it('ProductTwo can fly', () => {
-  const result = clientCode(new CreatorTwo());
+    expect(result).toBe('ProductOne can sparkle');
+  });
 
-  expect(result).toBe('ProductTwo can fly');
-})
+  it('should be a ProductTwo can fly', () => {
+    expect.assertions(1);
+
+    const result = clientCode(new CreatorTwo());
+
+    expect(result).toBe('ProductTwo can fly');
+  });
+});

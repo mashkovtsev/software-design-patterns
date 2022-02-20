@@ -6,7 +6,7 @@ type ResultType = {
   collaboration: string;
 };
 
-export function clientCode(factory: AbstractFactoryInterface): ResultType {
+export default function clientCode(factory: AbstractFactoryInterface): ResultType {
   const door = factory.createDoor();
   const window = factory.createWindow();
 
