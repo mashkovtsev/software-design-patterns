@@ -9,6 +9,7 @@
   * [Одиночка (Singleton)](./src/creational-patterns/singleton)
   * [Фабричный метод (Factory Method)](./src/creational-patterns/factory-method)
   * [Абстрактная фабрика (Abstract Factory)](./src/creational-patterns/abstract-factory)
+  * [Строитель (Builder)](./src/creational-patterns/builder)
 * Структурные:
   * ...
 * Поведенческие:
