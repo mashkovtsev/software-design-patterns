@@ -2,19 +2,27 @@
   "name": "software-design-patterns",
   "version": "1.0.0",
   "description": "Software design pattern collection with examples",
+  "private": true,
   "main": "index.js",
   "type": "module",
+  "author": {
+    "name": "Dmitry Mashkovtsev",
+    "email": "SpaceEngineX@gmail.com"
+  },
+  "license": "ISC",
+  "keywords": [
+    "design",
+    "pattern"
+  ],
+  "engines": {
+    "node": "^16.14.0",
+    "yarn": "^1.22.17"
+  },
   "scripts": {
     "lint": "eslint . --ext .ts",
     "test": "jest",
     "test:cov": "yarn test --coverage --coverageReporters=text"
   },
-  "keywords": [
-    "design",
-    "pattern"
-  ],
-  "author": "Dmitry Mashkovtsev",
-  "license": "ISC",
   "devDependencies": {
     "@types/jest": "27.4.0",
     "@typescript-eslint/eslint-plugin": "5.12.0",
