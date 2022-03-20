@@ -3,7 +3,7 @@
 Основано на https://refactoring.guru/ru/design-patterns
 
 
-## Оглавление:
+## Список:
 
 * Порождающие:
   * [Одиночка (Singleton)](./src/creational-patterns/singleton)
@@ -16,7 +16,7 @@
   * ...
 
 
-# Ссылки:
+## Ссылки:
 
 * [Refactoring.guru](https://refactoring.guru/ru/design-patterns)
 * [Шаблон проектирования](https://ru.wikipedia.org/wiki/Шаблон_проектирования)
