@@ -10,6 +10,7 @@
   * [Фабричный метод (Factory Method)](./src/creational-patterns/factory-method)
   * [Абстрактная фабрика (Abstract Factory)](./src/creational-patterns/abstract-factory)
   * [Строитель (Builder)](./src/creational-patterns/builder)
+  * [Прототип (Клон, Prototype)](./src/creational-patterns/prototype)
 * Структурные:
   * ...
 * Поведенческие:
