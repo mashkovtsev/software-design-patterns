@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: '16.x'
       - name: Install dependencies
-        run: yarn install --offline --immutable
+        run: yarn install --offline --frozen-lockfile
       - name: Linter
         run: yarn lint
 
@@ -29,6 +29,6 @@ jobs:
         with:
           node-version: '16.x'
       - name: Install dependencies
-        run: yarn install --offline --immutable
+        run: yarn install --offline --frozen-lockfile
       - name: Unit tests
         run: yarn test
